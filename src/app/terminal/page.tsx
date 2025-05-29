@@ -1,4 +1,4 @@
-import { TerminalCLI } from '@/components/home/TerminalCLI'
+import TerminalCLI from '@/components/home/TerminalCLI'
 
 export default function TerminalPage() {
   return (
