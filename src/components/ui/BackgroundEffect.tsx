@@ -27,3 +27,5 @@ export function BackgroundEffect() {
     />
   )
 }
+
+import type { Engine } from 'tsparticles-engine'
