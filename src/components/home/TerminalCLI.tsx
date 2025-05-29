@@ -22,7 +22,7 @@ export function TerminalCLI() {
   const handleKey = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
       const response = fakeResponses[input.trim().toLowerCase()] || 'Command not recognized.'
-      setLines([...lines, $ , response])
+      setLines([...lines, ', response])
       if (input.trim() === 'request project') window.location.href = '/contact'
       if (input.trim() === 'generate resume') window.location.href = '/resume'
       setInput('')
@@ -37,7 +37,7 @@ export function TerminalCLI() {
         </motion.div>
       ))}
       <div className='flex items-center gap-2'>
-        <span>$</span>
+        <span>'/span>
         <input
           ref={inputRef}
           value={input}
