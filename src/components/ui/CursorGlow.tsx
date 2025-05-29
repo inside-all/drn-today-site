@@ -9,6 +9,7 @@ export function CursorGlow() {
     const move = (e: MouseEvent) => {
       setPos({ x: e.clientX, y: e.clientY })
     }
+    const position = [0, 0];
     window.addEventListener('mousemove', move)
     const [px, py] = position;
 return () => window.removeEventListener('mousemove', move)
