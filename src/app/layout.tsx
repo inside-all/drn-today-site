@@ -1,4 +1,4 @@
-import './globals.css'
+ï»¿import './globals.css'
 import { ThemeProvider } from '@/lib/theme-provider'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DRN.today – The Dynamic Resource Network™',
+  title: 'DRN.today â€“ The Dynamic Resource Networkâ„¢',
   description: 'The future of freelancing. Built with code. Powered by intelligence.',
 }
 
