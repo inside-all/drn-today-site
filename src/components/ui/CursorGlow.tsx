@@ -17,7 +17,7 @@ export function CursorGlow() {
     <div
       className='pointer-events-none fixed top-0 left-0 z-50 h-48 w-48 rounded-full bg-primary opacity-20 blur-2xl transition-transform duration-300'
       style={{
-        transform: 	ranslate(px, px),
+        transform: 	translate(${px}px, ${py}px),
       }}
     />
   )
