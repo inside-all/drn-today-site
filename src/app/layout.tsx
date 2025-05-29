@@ -1,4 +1,4 @@
-import './globals.css'
+﻿import './globals.css'
 import type { Metadata } from 'next'
 import { ThemeProvider } from '@/lib/theme-provider'
 import { Topbar } from '@/components/layout/Topbar'
@@ -7,7 +7,7 @@ import { CursorGlow } from '@/components/ui/CursorGlow'
 import { BackgroundEffect } from '@/components/ui/BackgroundEffect'
 
 export const metadata: Metadata = {
-  title: 'DRN.today � The Dynamic Resource Network',
+  title: 'DRN.today – The Dynamic Resource Network',
   description: 'Code. Data. And a Human Network.',
 }
 
