@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
@@ -22,7 +22,7 @@ export function TerminalCLI() {
   const handleKey = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
       const response = fakeResponses[input.trim().toLowerCase()] || 'Command not recognized.'
-      setLines([...lines, ', response])
+      setLines([...lines, '$', response])
       if (input.trim() === 'request project') window.location.href = '/contact'
       if (input.trim() === 'generate resume') window.location.href = '/resume'
       setInput('')
